@@ -34,3 +34,7 @@ nitrogen --restore &
 xsetroot -cursor_name left_ptr &
 
 exec zwm
+#!/bin/bash
+
+xset r rate 200
+~/.config/polybar/launch_polybar.sh &
